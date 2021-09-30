@@ -208,7 +208,7 @@ foreach ($results as $row){
     echo $row['comment'].',';
     echo $row['date'].'<br>';
     echo "<hr>";
-}
+}//foreach
 ?>
 </body>
 </html>
