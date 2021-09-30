@@ -65,7 +65,7 @@
 }//if(!empty($_POST["edit"]) and !empty($_POST["pass_2"])){    
      ?>">  
 
-    <button type="submit" name="submit">送信</button>
+    <button type="submit" name="submit">投稿</button>
     <br>
     <input type="hidden" name="edit_2" value="<?php if(!empty($_POST["edit"]) and !empty($_POST["pass_2"])){
         $dsn = 'データベース名';
