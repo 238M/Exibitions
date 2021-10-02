@@ -8,7 +8,7 @@
     <form action="" method="post" autocomplete="off">
     <h1>[新規登録]</h1>
     <p>
-        <!--  文字の色、斜体を変更します  -->
+        <!--  文字の色、字体を変更します  -->
         <span style="color:red; font_style italic">初めてこのサイトをご利用される方は登録する必要があります。</span>
     </p>
     <input type="text" name="name" placeholder="名前を記入">  
