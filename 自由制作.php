@@ -175,8 +175,7 @@ if(!empty($_POST["name_1"]) and !empty($_POST["pass_1"])){
     foreach ($results as $row){
 	    header( "Location: 制作物のURL" ) ;
 	    exit ;
-    }//header( "Location: https://tech-base.net/tb-230455/%E5%86%85%E5%AE%B9.html" ) ;
-	//exit ;
+    }//header	//exit ;
 }//ログイン完了
 ?>
 </body>
