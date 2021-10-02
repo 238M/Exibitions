@@ -99,10 +99,9 @@ if(!empty($_POST["name_1"]) and !empty($_POST["pass_1"])){
 	$stmt-> execute();
 	$results = $stmt->fetchAll();
     foreach ($results as $row){
-	    header( "Location: https://tech-base.net/tb-230455/%E5%88%B6%E4%BD%9C%E7%89%A9%E5%86%85%E5%AE%B9.php" ) ;
+	    header( "制作物のURL" ) ;
 	    exit ;
-    }//header( "Location: https://tech-base.net/tb-230455/%E5%86%85%E5%AE%B9.html" ) ;
-	//exit ;
+    }//header	//exit ;
 }//ログイン完了
 ?>
 </body>
