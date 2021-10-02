@@ -149,7 +149,7 @@ if(!empty($_POST["name"]) and !empty($_POST["adress"]) and !empty($_POST["pass"]
         "ご登録いただきありがとうございます。.<br>
         登録が完了いたしましたことを再度お知らせいたします。<br>
         引き続きログインされる方はこちらからでも可能です。<br>
-        https://tech-base.net/tb-230455/%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E5%B0%82%E7%94%A8%E7%94%BB%E9%9D%A2.php. <br>";
+        制作物のURL. <br>";
 
         $mail->Body  = $body;
         // メール送信の実行
@@ -173,7 +173,7 @@ if(!empty($_POST["name_1"]) and !empty($_POST["pass_1"])){
 	$stmt-> execute();
 	$results = $stmt->fetchAll();
     foreach ($results as $row){
-	    header( "Location: https://tech-base.net/tb-230455/%E5%88%B6%E4%BD%9C%E7%89%A9%E5%86%85%E5%AE%B9.php" ) ;
+	    header( "Location: 制作物のURL" ) ;
 	    exit ;
     }//header( "Location: https://tech-base.net/tb-230455/%E5%86%85%E5%AE%B9.html" ) ;
 	//exit ;
